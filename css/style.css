@@ -86,12 +86,30 @@ a:active {
 /* Main Styles --------------------- */
 
 .main-header {
-  padding-top: 170px;
-  height: 850px;
+  padding-top: 0 0 150px 0;
+  /*height: 850px;*/
+  /*background: linear-gradient(#00BCD4, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #00BCD4 url('../img/plitvice.jpg') no-repeat center;
+  background-size: cover;*/
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   background: linear-gradient(#00BCD4, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
               #00BCD4 url('../img/plitvice.jpg') no-repeat center;
   background-size: cover;
+}
+
+.el-content {
+  text-align: center;
+  margin: auto;
+}
+.el-content .social{
+  flex-direction: row;
 }
 
 .title {
@@ -149,7 +167,7 @@ a:active {
 
 .primary-content img {
   border-radius: 50%;
-  width: 45%;
+  width: 12em;
 }
 
 .secondary-content h2 {
@@ -224,7 +242,9 @@ li.dropdown {
 
 .arrow {
   width: 50px;
-  margin-top: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 48%;
 }
 
 /* Floated Columns ------------------ */
@@ -267,8 +287,8 @@ li.dropdown {
     border-top: none;
   }
   .main-header {
-    max-height: 380px;
-    padding: 50px 25px 0;
+    /*max-height: 380px;*/
+    /*padding: 50px 25px 0;*/
   }
   .title {
     font-size: 1.3rem;

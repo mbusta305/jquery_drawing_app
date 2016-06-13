@@ -149,6 +149,7 @@ a:active {
 
 .primary-content img {
   border-radius: 50%;
+  width: 60%;
 }
 
 .secondary-content h2 {

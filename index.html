@@ -8,6 +8,16 @@
   </head>
   <body>
     <header id="top" class="main-header">
+      <ul>
+        <li><a class="active" href="#about">About</a></li>
+        <li class="dropdown">
+          <a href="#P" class="dropbtn">Portfolio</a>
+          <div class="dropdown-content">
+            <a href="#P1">AirMail</a>
+            <a href="#P2">N-Lite</a>
+          </div>
+        </li>
+      </ul>
       <span class="title">Full Stack Web Developer</span>
       <h1>Michael Busta</h1>
       <a href="https://github.com/mbusta305"><i class="fa fa-github fa-2x"></i> Github</a>
@@ -18,7 +28,7 @@
       <img class="arrow" src="img/arrow.svg" alt="Down arrow">
     </header>
 
-		<div class="primary-content t-border">
+		<div id="about" class="primary-content t-border">
 			<p class="intro">
         <img src="img/mikepic.png" alt="Photo of mike busta" class="profile-photo">
         <br>
@@ -31,9 +41,9 @@
 		</div><!-- End .primary-content -->
 
 		<div class="secondary-content t-border group">
-      <h2>Portfolio</h2>
+      <h2 id='P'>Portfolio</h2>
 
-      <div class="airmail">
+      <div id='P1' class="airmail">
         <a href="https://air-mail.herokuapp.com/"><img src="img/airmailhome.png" alt="Mountain Landscape"></a>
         <h3>AirMail App</h3>
         <p>
@@ -41,7 +51,7 @@
         </p>
       </div>
 
-      <div class="nlite">
+      <div id='P2' class="nlite">
         <a href="http://n-litec9.herokuapp.com/"><img src="img/n-lite.png" alt="Resort"></a>
         <h3>N-Lite App</h3>
         <p>

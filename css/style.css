@@ -250,16 +250,24 @@ li.dropdown {
 /* Floated Columns ------------------ */
 
 .nlite,
-.airmail {
+.airmail,
+.mycanvas {
   width: 46.5%;
 }
 
 .airmail {
+  text-align: center;
   float: left;
 }
 
 .nlite {
+  text-align: center;
   float: right;
+}
+
+.mycanvas {
+  text-align: center;
+  float: inherit;
 }
 
 /* Float Clearfix ------------------ */
@@ -305,7 +313,8 @@ li.dropdown {
     font-size: 1rem;
   }
   .nlite,
-  .airmail {
+  .airmail,
+  .mycanvas {
     float: none;
     width: 100%;
   }
